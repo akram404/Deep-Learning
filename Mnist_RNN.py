@@ -1,3 +1,7 @@
+# this is a recurrent neural network to classify Mnist digits from 0-9.
+# it gives 98% accuracy
+
+
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, LSTM
